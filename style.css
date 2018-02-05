@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbtn{
+    width: 200px;
+    height: 150px;
+}
+@media only screen and (min-width: 481px),(max-width: 1024px){
+    /* we will set these stylings only if the device is a width of 481px-1024px */
+    .navbtn {
+        background-color: aquamarine;
+    }
+}
+@media only screen and (min-width: 1025px){
+    /* we will set these stylings only if the device is a width of 1025px or greater */
+    .navbtn {
+        background-color: red;
+        display: inline;
+    }
+    .top{
+        display: inline;        
+    }
+    .bottom{
+        display: inline;        
+    }
+}
+@media only screen and (max-width: 480px){
+    /* we will set these stylings only if the device is a width of 480px or less */
+    .navbtn {
+        background-color: grey;
+        display: block;
+    }
+}
